@@ -46,21 +46,10 @@ This MVP mirrors a practical R&D pattern:
 - The feature set is intentionally simple.
 - The model is an MVP and is meant to demonstrate reasoning, workflow, and communication more than final precision.
 
-## Natural next steps
+## Possible next steps
 - Use a richer set of Statcast features, such as hang time, direction, and fielder movement proxies
 - Test non-linear models (XGBoost / LightGBM)
 - Add uncertainty intervals to player rankings
 - Compare multiple seasons for stability
 - Expand the method to all outfield positions
-
-## Suggested repo structure
-```text
-phillies-cf-defense-mvp/
-├── center_field_defense_mvp.ipynb
-├── README.md
-├── requirements.txt
-└── project_summary_tim_ponden.docx
 ```
-
-## Resume line
-Built a Statcast-based defensive modeling project to evaluate MLB center fielders, developing a play-level catch probability model and aggregating results into player-level Outs Above Expectation metrics for decision-oriented player evaluation.
